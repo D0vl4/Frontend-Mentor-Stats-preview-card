@@ -1,0 +1,206 @@
+.attribution {
+    font-size: .75rem;
+    text-align: center;
+    padding-top: .75rem;
+    font-family: 'Lexend Deca';
+    color: white;
+}
+
+.attribution a {
+    font-family: 'Lexend Deca';
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution:after {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --white-heading: white;
+    --white-text: hsla(0, 0%, 100%, 0.75);
+    --stat-heading: hsla(0, 0%, 100%, 0.6);
+    --purple-text: hsl(273, 48%, 59%);
+    --background: hsl(233, 47%, 7%);
+    --container: hsl(244, 38%, 16%);
+    --pic-bckgrnd: #3e0b67;
+}
+
+body {
+    display: flex;
+    max-height: 100vh;
+    background-color: var(--background);
+}
+
+#container {
+    position: relative;
+    width: 20.5rem;
+    height: 49rem;
+    background-color: var(--container);
+    border-radius: .75rem;
+}
+
+img {
+    height: 15rem;
+    border-radius: .75rem .75rem 0 0;
+    opacity: .3;
+}
+
+.img-cover {
+    width: 20.5rem;
+    height: 15rem;
+    background-color: var(--pic-bckgrnd);
+    border-radius: .75rem .75rem 0 0;
+
+}
+
+h1 {
+    font-family: 'Inter';
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 3rem;
+    color: var(--white-heading);
+}
+
+.purple {
+    color: var(--purple-text);
+}
+
+p {
+    font-family: 'Inter';
+    color: var(--white-text);
+    line-height: 1.5;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+    margin: 0 auto;
+    width: 18rem;
+}
+
+.companies,
+.templates,
+.queries {
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.num1 {
+    display: block;
+    font-family: 'Inter';
+    color: var(--white-heading);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.text1 {
+    display: block;
+    font-family: 'Lexend Deca';
+    font-weight: 300;
+    color: var(--stat-heading);
+    font-size: .6rem;
+    text-transform: uppercase;
+    padding-top: .25rem;
+    letter-spacing: 1.5px;
+}
+
+/* ---------------------------- MEDIA QUERIES ---------------------------- */
+
+@media only screen and (min-width: 1440px) {
+    #container {
+        display: flex;
+        width: 68.75rem;
+        height: 27.875rem;
+        background-color: var(--container);
+        border-radius: 1.25rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    img {
+        position: relative;
+        width: 33.75rem;
+        height: 27.875rem;
+        border-radius: 0 .75rem .75rem 0;
+
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .img-cover {
+        position: relative;
+        display: grid;
+        background-color: var(--pic-bckgrnd);
+        width: 33.75rem;
+        height: 27.875rem;
+        border-radius: 0 .75rem .75rem 0;
+        left: 34.937rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    h1 {
+        position: absolute;
+        font-size: 2.375rem;
+        text-align: left;
+        padding-left: 5rem;
+        width: 35rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    p {
+        position: absolute;
+        font-family: 'Inter';
+        color: var(--white-text);
+        line-height: 1.5;
+        font-size: 1rem;
+        text-align: left;
+        padding-left: 5rem;
+        top: 10rem;
+        width: 30rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .num1 {
+        position: relative;
+        float: left;
+        display: block;
+        font-family: 'Inter';
+        color: var(--white-heading);
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+
+    .text1 {
+        position: ab;
+        display: block;
+        font-family: 'Lexend Deca';
+        font-weight: 300;
+        color: var(--stat-heading);
+        font-size: .7rem;
+        text-align: left;
+        text-transform: uppercase;
+        margin-top: 2rem;
+        letter-spacing: 1.5px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .companies,
+    .templates,
+    .queries {
+        position: relative;
+        top: 18rem;
+        left: -32rem;
+        text-align: center;
+        padding-top: 2rem;
+        margin-left: 3rem;
+    }
+}
